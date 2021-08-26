@@ -3,3 +3,6 @@ def increment(x):
 
 def decrement(x):
     return x - 1
+
+def add_zero(x):
+    return x + 0
