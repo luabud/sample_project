@@ -1,3 +1,4 @@
+from time import sleep
 import inc_dec    # The code to test
 import unittest   # The test framework
 
@@ -11,3 +12,5 @@ class Test_TestIncrementDecrement(unittest.TestCase):
 
 if __name__ == '__main__':
     unittest.main()
+else:
+    sleep(5)
