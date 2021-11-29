@@ -1,0 +1,17 @@
+{
+    "python.testing.pytestArgs": [
+        "-v",
+        "-s",
+        "--log-cli-level", "INFO"
+    ],
+        "python.testing.unittestArgs": [
+        "-v",
+        "-s",
+        ".",
+        "-p",
+        "test_*.py"
+    ],
+    "python.testing.unittestEnabled": true,
+    "python.testing.nosetestsEnabled": false,
+    "python.testing.pytestEnabled": false
+}
